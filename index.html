@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sticky Navigation Bar Sticky Menu</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="header">
+        <nav>
+            <img src="./Images/logo_white.png" draggable="false" class="logo">
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">SERVICES</a></li>
+                <li><a href="#">PRODUCT</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
+        </nav>
+    </div>
+    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione illo provident qui atque id corrupti eaque tenetur! Tenetur soluta aperiam reprehenderit, provident non distinctio magni nihil ea eius eum odit!
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, error laboriosam atque saepe sed facilis earum aliquam delectus itaque amet illo dolore perferendis possimus eveniet quisquam esse ratione libero velit!
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa tenetur quo impedit voluptatibus, quaerat, sed est explicabo deleniti pariatur ullam veniam enim quod facere rerum consequatur eius fugiat quisquam dolore!
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique totam repellat laudantium hic nesciunt asperiores eligendi odit quae ad quia error dolorum adipisci, corporis eveniet et id dicta voluptatibus iste?
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit quae reiciendis, ratione enim omnis excepturi corporis quasi, perspiciatis nostrum totam, alias commodi nobis pariatur cupiditate fuga. Incidunt facere aperiam magni.
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi fuga vel culpa sunt voluptatum sit doloremque quidem ab quibusdam corporis minima sint, quis quisquam tenetur architecto assumenda, corrupti enim saepe.
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores porro eligendi atque molestiae, perspiciatis animi quia nulla cupiditate fugiat alias libero, eum ratione, aliquid earum minus laudantium. Adipisci, dolorem quod!
+    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione illo provident qui atque id corrupti eaque tenetur! Tenetur soluta aperiam reprehenderit, provident non distinctio magni nihil ea eius eum odit!
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, error laboriosam atque saepe sed facilis earum aliquam delectus itaque amet illo dolore perferendis possimus eveniet quisquam esse ratione libero velit!
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa tenetur quo impedit voluptatibus, quaerat, sed est explicabo deleniti pariatur ullam veniam enim quod facere rerum consequatur eius fugiat quisquam dolore!
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique totam repellat laudantium hic nesciunt asperiores eligendi odit quae ad quia error dolorum adipisci, corporis eveniet et id dicta voluptatibus iste?
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit quae reiciendis, ratione enim omnis excepturi corporis quasi, perspiciatis nostrum totam, alias commodi nobis pariatur cupiditate fuga. Incidunt facere aperiam magni.
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi fuga vel culpa sunt voluptatum sit doloremque quidem ab quibusdam corporis minima sint, quis quisquam tenetur architecto assumenda, corrupti enim saepe.
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores porro eligendi atque molestiae, perspiciatis animi quia nulla cupiditate fugiat alias libero, eum ratione, aliquid earum minus laudantium. Adipisci, dolorem quod!
+    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione illo provident qui atque id corrupti eaque tenetur! Tenetur soluta aperiam reprehenderit, provident non distinctio magni nihil ea eius eum odit!
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, error laboriosam atque saepe sed facilis earum aliquam delectus itaque amet illo dolore perferendis possimus eveniet quisquam esse ratione libero velit!
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa tenetur quo impedit voluptatibus, quaerat, sed est explicabo deleniti pariatur ullam veniam enim quod facere rerum consequatur eius fugiat quisquam dolore!
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique totam repellat laudantium hic nesciunt asperiores eligendi odit quae ad quia error dolorum adipisci, corporis eveniet et id dicta voluptatibus iste?
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit quae reiciendis, ratione enim omnis excepturi corporis quasi, perspiciatis nostrum totam, alias commodi nobis pariatur cupiditate fuga. Incidunt facere aperiam magni.
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi fuga vel culpa sunt voluptatum sit doloremque quidem ab quibusdam corporis minima sint, quis quisquam tenetur architecto assumenda, corrupti enim saepe.
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi fuga vel culpa sunt voluptatum sit doloremque quidem ab quibusdam corporis minima sint, quis quisquam tenetur architecto assumenda, corrupti enim saepe.
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores porro eligendi atque molestiae, perspiciatis animi quia nulla cupiditate fugiat alias libero, eum ratione, aliquid earum minus laudantium. Adipisci, dolorem quod!
+    </p>
+    
+
+
+    <script>
+        var navbar = document.querySelector('nav');
+        var menu = document.querySelector('ul');
+
+        window.onscroll = function(){
+            if(window.pageYOffset>=menu.offsetTop){
+                navbar.classList.add('sticky')
+            }
+            else{
+                navbar.classList.remove('sticky');
+
+            }
+        }
+
+    </script>
+</body>
+</html>
